@@ -18,13 +18,13 @@
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Themes: Awesome-CV
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt, a4paper]{template/awesome-cv}
 
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
 
 %%% Configure a directory location for sections
-\newcommand*{\sectiondir}{resume/}
+\newcommand*{\sectiondir}{}
 
 %%% Override color
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -59,6 +59,7 @@
 %%% Social
 \email{omerp2006@gmail.com}
 \linkedin{omer-pinto-a940a8122}
+\github{Omer-Pinto}
 %%% Optionals
 
 
@@ -76,11 +77,11 @@
 \makecvheader
 
 %%% Import contents
+\import{\sectiondir}{summary.tex}
 \import{\sectiondir}{experience.tex}
 \clearpage
 \import{\sectiondir}{Skills.tex}
 \import{\sectiondir}{education.tex}
 \import{\sectiondir}{articles.tex}
-\import{\sectiondir}{Military.tex}
 
 \end{document}
