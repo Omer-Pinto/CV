@@ -1,3 +1,5 @@
+# CLAUDE.md
+
 ## Project Overview
 This project contains the LaTeX-based CV of **Omer Pinto**, a senior software engineer. The goal is to maintain a clean, professional, and highly customizable resume while reducing the manual effort typically required when editing LaTeX files.
 
