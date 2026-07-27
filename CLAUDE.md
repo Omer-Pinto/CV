@@ -7,6 +7,11 @@ The CV is structured into modular `.tex` files, each representing a section, and
 
 ---
 
+## Hard Rules
+- **NEVER use em-dashes** (`---` in LaTeX, `—` as a character) anywhere in CV content. They read as AI-generated text. Use a colon, parentheses, comma, or semicolon instead. This applies to all `.tex` files and any text written for this project.
+
+---
+
 ## Goals
 - Allow the user (Omer) to quickly update any part of the CV using an AI coding assistant.
 - Provide context so the AI understands the structure, LaTeX quirks, commands, spacing, and content expected.
